@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [FREE CRM Application Automation Test Suite]">
+  <listeners>
+    <listener class-name="com.qa.yelp.util.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="Yelp Test Cases(failed)">
+    <classes>
+      <class name="com.qa.yelp.pages.TestSecondPage">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testGetFirstRestaurantDetails"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.qa.yelp.pages.TestSecondPage -->
+    </classes>
+  </test> <!-- Yelp Test Cases(failed) -->
+</suite> <!-- Failed suite [FREE CRM Application Automation Test Suite] -->

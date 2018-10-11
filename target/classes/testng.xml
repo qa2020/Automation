@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="FREE CRM Application Automation Test Suite">
+
+	<listeners>
+		<listener class-name="com.qa.yelp.util.ExtentReporterNG" />
+	</listeners>
+
+
+	<test name="Yelp Test Cases">
+		<classes>
+			<class name="com.qa.yelp.pages.TestHomePage"></class>
+			<class name="com.qa.yelp.pages.TestSecondPage"></class>
+		</classes>
+	</test>
+</suite>
